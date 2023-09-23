@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: rgb(0, 153, 255);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(111, 124, 224);
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 4vmax 8vmax;
+}
+
+.container>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container>h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 2.5rem;
+}
+
+input,
+textarea,
+button {
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: rgb(59, 58, 58);
+    color: #fff;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.task>div {
+    width: 100%;
+}
+
+.task span {
+    color: rgba(0, 0, 0, 0.635);
+}
+
+.task button {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task button:hover {
+    background-color: crimson;
+}
