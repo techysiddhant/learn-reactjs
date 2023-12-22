@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "sid",
+      "email": "sidjain@sid.com"
+    },
+    {
+      "id": 2,
+      "name": "test",
+      "email": "test@sid.com"
+    },
+    {
+      "id": 3,
+      "name": "test-3",
+      "email": "test3@sid.com"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
